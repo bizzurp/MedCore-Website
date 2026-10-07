@@ -48,7 +48,6 @@
         <a href="#metrics" class="nav-link">Impact</a>
         <a href="#features" class="nav-link">Features</a>
         <a href="#pricing" class="nav-link">Pricing</a>
-        <a href="#testimonials" class="nav-link">Testimonials</a>
         <a href="#faq" class="nav-link">FAQ</a>
         <a href="#contact" class="nav-link">Contact</a>
         <a href="https://med-core1.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm nav-cta">Go to Dashboard
@@ -81,10 +80,6 @@
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
             </a>
             <a href="https://med-core1.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg magnetic">Existing user? Open dashboard</a>
-          </div>
-          <div class="hero-proof reveal">
-            <div class="avatars" aria-hidden="true"><span>RC</span><span>JA</span><span>AL</span><span>KS</span></div>
-            <p><strong>7M+ HMO lives</strong> · 25 licensed HMOs · 350+ private hospitals in SAM</p>
           </div>
           <dl class="hero-stats reveal">
             <div><dt>&lt;45 min</dt><dd>discharge SLA (target &lt;30)</dd></div>
@@ -211,7 +206,13 @@
               <ul><li>Room &amp; HMO limit evaluator</li><li>PhilHealth-First estimator</li></ul>
             </div>
             <div class="mini-graphic" aria-hidden="true">
-              <div class="est-card"><span>Estimated OOP</span><strong>₱5,500</strong><div class="est-bars"><i style="--h:38%"></i><i style="--h:55%"></i><i style="--h:72%"></i><i style="--h:100%"></i></div><span class="est-note">Room M · Maxicare Silver</span></div>
+              <div class="est-card"><span>Estimated OOP · Maxicare Silver</span><strong>₱5,500</strong>
+                <div class="tier-rows">
+                  <div class="tier-row"><span>Ward</span><div class="tier-bar"><i style="--w:6%"></i></div><strong>₱0</strong></div>
+                  <div class="tier-row active"><span>Semi-Private · M</span><div class="tier-bar"><i style="--w:42%"></i></div><strong>₱5,500</strong></div>
+                  <div class="tier-row"><span>Private</span><div class="tier-bar"><i style="--w:100%"></i></div><strong>₱18,200</strong></div>
+                </div>
+              </div>
             </div>
           </article>
 
@@ -262,7 +263,9 @@
         <div class="pricing-strip reveal" aria-label="Pricing model">
           <span class="strip-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 6.5c0-1.9-2.2-3-5-3s-5 1.1-5 3 2 2.6 5 3.2 5 1.4 5 3.3-2.2 3-5 3-5-1.1-5-3"/></svg></span>
           <div><strong>Hybrid SaaS + value-based</strong><span>Plans from ₱125,000/yr · ₱45–₱85 per cleared discharge · 1.2–2.5% digital rail · 5–8% gainshare only on recovered claims</span></div>
-          <a href="#pricing" class="btn btn-primary magnetic">See plans</a>
+          <a href="#pricing" class="btn btn-primary magnetic">See plans
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
         </div>
       </div>
     </section>
@@ -338,20 +341,25 @@
           </article>
         </div>
 
-        <div class="patient-plans">
-          <h3 class="reveal">Patient Subscription Plans (Yearly)</h3>
-          <p class="patient-sub reveal">Access to MedCore's patient engagement platform and financial transparency tools</p>
-          <div class="patient-grid">
-            <article class="patient-card reveal">
-              <span class="patient-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
-              <h4>Tier 1 Patient Subscription</h4>
-              <p class="price">₱3,600</p>
-            </article>
-            <article class="patient-card reveal" data-delay="1">
-              <span class="patient-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
-              <h4>Tier 2 Patient Subscription</h4>
-              <p class="price">₱3,000</p>
-            </article>
+        <div class="patient-plans reveal">
+          <div class="patient-panel">
+            <p class="patient-kicker">FOR PATIENTS &amp; FAMILIES</p>
+            <h3>Patient Subscription Plans (Yearly)</h3>
+            <p class="patient-sub">Access to MedCore's patient engagement platform and financial transparency tools</p>
+            <div class="patient-grid">
+              <article class="patient-card highlight">
+                <span class="patient-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+                <span class="tier-pill">Tier 1</span>
+                <p class="price">₱3,600 <span>/yr</span></p>
+                <a href="#contact" class="btn btn-primary btn-block">Choose Tier 1</a>
+              </article>
+              <article class="patient-card">
+                <span class="patient-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+                <span class="tier-pill alt">Tier 2</span>
+                <p class="price">₱3,000 <span>/yr</span></p>
+                <a href="#contact" class="btn btn-outline btn-block">Choose Tier 2</a>
+              </article>
+            </div>
           </div>
         </div>
       </div>
@@ -394,44 +402,6 @@
           <div class="phase"><span>Phase 1 · 0–18 mo</span><strong>Hospital wedge</strong><p>20–30 private tertiary hospitals across NCR, Calabarzon &amp; Cebu at the &lt;45-min SLA.</p></div>
           <div class="phase"><span>Phase 2 · 18–36 mo</span><strong>Payer network</strong><p>Direct API pipes with the top-5 HMOs; real-time eLOA adjudication in a shared clearinghouse.</p></div>
           <div class="phase"><span>Phase 3 · 36–60 mo</span><strong>Health Account</strong><p>One wallet for PhilHealth + HMO balances and compliant micro-installments for every Filipino family.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ TESTIMONIALS ============ -->
-    <section class="testimonials" id="testimonials" aria-labelledby="testimonials-title">
-      <div class="container">
-        <p class="section-kicker reveal">TESTIMONIALS</p>
-        <h2 id="testimonials-title" class="reveal">Loved by CFOs, clerks, doctors — and families</h2>
-        <p class="section-sub reveal">Illustrative personas drawn from hospital user research — CFOs, clerks, doctors, and families.</p>
-        <div class="slider reveal" role="region" aria-roledescription="carousel" aria-label="Customer testimonials">
-          <div class="slides" id="slides">
-            <figure class="t-card active">
-              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <blockquote>"Discharge used to eat our entire afternoon shift. With MedCore's countdown and pre-scrubbed eLOA, we're clearing ward patients in 32 minutes on average — and our ER waitlist finally moves."</blockquote>
-              <figcaption><span class="avatar a1">CF</span><div><strong>Hospital CFO</strong><span>250-bed tertiary hospital · illustrative persona</span></div></figcaption>
-            </figure>
-            <figure class="t-card">
-              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <blockquote>"I used to re-type LOAs from email into BizBox and pray the math matched. Now the waterfall is automatic — SC/PWD, PhilHealth, HMO — and CF4 mismatches are caught before PhilHealth sees them."</blockquote>
-              <figcaption><span class="avatar a2">BH</span><div><strong>Billing section head</strong><span>12 yrs in hospital RCM · illustrative persona</span></div></figcaption>
-            </figure>
-            <figure class="t-card">
-              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <blockquote>"My father's bill was on my phone the whole confinement. When the doctor said 'puwede nang umuwi,' I paid ₱5,500 with GCash and we got the QR pass. No cashier line, no surprise."</blockquote>
-              <figcaption><span class="avatar a3">PG</span><div><strong>Patient guarantor</strong><span>HMO dependent · illustrative persona</span></div></figcaption>
-            </figure>
-            <figure class="t-card">
-              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <blockquote>"Final LOA was our 3-hour bottleneck. Pre-cleansed chargemaster feeds mean I send once and it's approved. Disputes at discharge have basically disappeared."</blockquote>
-              <figcaption><span class="avatar a4">LO</span><div><strong>HMO liaison officer</strong><span>Multi-payer desk · illustrative persona</span></div></figcaption>
-            </figure>
-          </div>
-          <div class="slider-controls">
-            <button id="prevSlide" aria-label="Previous testimonial">←</button>
-            <div class="dots" id="sliderDots" role="tablist" aria-label="Testimonial selector"></div>
-            <button id="nextSlide" aria-label="Next testimonial">→</button>
-          </div>
         </div>
       </div>
     </section>
@@ -525,7 +495,7 @@
           <a href="#" aria-label="YouTube">▶</a>
         </div>
       </div>
-      <nav aria-label="Product"><h4>Product</h4><a href="#features">Features</a><a href="#metrics">Impact</a><a href="#pricing">Pricing</a><a href="#testimonials">Customers</a><a href="#faq">FAQ</a></nav>
+      <nav aria-label="Product"><h4>Product</h4><a href="#features">Features</a><a href="#metrics">Impact</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></nav>
       <nav aria-label="Compliance"><h4>Compliance</h4><a href="#">PhilHealth eClaims 3.0</a><a href="#">Data Privacy (RA 10173)</a><a href="#">RA 9439 · RA 10932</a><a href="#">Privacy Policy</a></nav>
       <nav aria-label="Company"><h4>Company</h4><a href="#contact">Contact</a><a href="#">Terms of Service</a><a href="https://med-core1.vercel.app/" target="_blank" rel="noopener noreferrer">Application Dashboard</a><a href="https://vercel.app" target="_blank" rel="noopener noreferrer">Login</a></nav>
     </div>

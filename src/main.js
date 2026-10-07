@@ -150,44 +150,6 @@ import './style.css';
     }, 1000);
   }
 
-  /* ---------- Testimonial slider ---------- */
-  var slides = Array.prototype.slice.call(document.querySelectorAll('.t-card'));
-  var dotsWrap = document.getElementById('sliderDots');
-  var idx = 0, timer = null;
-  slides.forEach(function (_, i) {
-    var d = document.createElement('button');
-    d.setAttribute('role', 'tab');
-    d.setAttribute('aria-label', 'Show testimonial ' + (i + 1));
-    if (i === 0) d.classList.add('active');
-    d.addEventListener('click', function () { go(i); restart(); });
-    dotsWrap.appendChild(d);
-  });
-  var dots = Array.prototype.slice.call(dotsWrap.children);
-  var touchX = null;
-  function go(i) {
-    idx = (i + slides.length) % slides.length;
-    slides.forEach(function (s, k) { s.classList.toggle('active', k === idx); });
-    dots.forEach(function (d, k) { d.classList.toggle('active', k === idx); });
-  }
-  function restart() {
-    if (timer) clearInterval(timer);
-    if (!prefersReduced) timer = setInterval(function () { go(idx + 1); }, 6500);
-  }
-  document.getElementById('prevSlide').addEventListener('click', function () { go(idx - 1); restart(); });
-  document.getElementById('nextSlide').addEventListener('click', function () { go(idx + 1); restart(); });
-  // Swipe support
-  var slider = document.querySelector('.slider');
-  if (slider) {
-    slider.addEventListener('touchstart', function (e) { touchX = e.touches[0].clientX; }, { passive: true });
-    slider.addEventListener('touchend', function (e) {
-      if (touchX === null) return;
-      var dx = e.changedTouches[0].clientX - touchX;
-      if (Math.abs(dx) > 40) { go(idx + (dx < 0 ? 1 : -1)); restart(); }
-      touchX = null;
-    }, { passive: true });
-  }
-  restart();
-
   /* ---------- FAQ accordion (single-open, accessible) ---------- */
   var items = document.querySelectorAll('.acc-item');
   items.forEach(function (item) {
