@@ -1,0 +1,15 @@
+{
+  "name": "medcore-website",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "MedCore marketing site — Cedar-inspired, Vite + vanilla JS",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

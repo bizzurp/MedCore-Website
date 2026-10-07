@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en-PH">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MedCore — Discharge in Under 45 Minutes | PhilHealth + HMO Reconciliation for Philippine Hospitals</title>
+  <meta name="description" content="MedCore is the financial intelligence & tripartite reconciliation platform for Philippine healthcare. Cut discharge billing from 8 hours to under 45 minutes, slash PhilHealth RTH to <2%, and boost cash collections by 40% — without replacing your HIS." />
+  <meta name="keywords" content="MedCore, Philippine healthcare, hospital billing, PhilHealth eClaims, HMO LOA, discharge clearance, RCM, tripartite reconciliation, BizBox, Comlogik" />
+  <meta name="author" content="MedCore" />
+  <meta name="theme-color" content="#0A2540" />
+  <link rel="canonical" href="https://medcore.example.com/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="MedCore" />
+  <meta property="og:title" content="MedCore — From 8-Hour Discharge to Under 45 Minutes" />
+  <meta property="og:description" content="Automated tripartite reconciliation across hospital chargemaster, PhilHealth, and HMOs. RTH <2%. DAR <35 days. +40% point-of-service collections." />
+  <meta property="og:image" content="/og-cover.svg" />
+  <meta property="og:locale" content="en_PH" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MedCore — Financial Intelligence for Philippine Hospitals" />
+  <meta name="twitter:description" content="The middleware that unifies hospital ledgers, PhilHealth case rates, and HMO policies into one real-time ledger." />
+
+  <link rel="icon" type="image/png" href="/logo/MedCore_Badge_Logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="MedCore home">
+        <img class="brand-badge" src="/logo/MedCore_Badge_Logo.png" alt="" width="38" height="38" />
+        <span class="brand-text"><span class="wordmark">MedCore</span>
+          <small>Financial Intelligence · PH Healthcare</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Primary">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#metrics" class="nav-link">Impact</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="https://med-core1.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm nav-cta">Go to Dashboard
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO (Cedar-style) ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-blobs" aria-hidden="true">
+        <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+        <span class="grid-overlay"></span>
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">
+            <span class="eyebrow-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10z"/><polyline points="9 11.5 11 13.5 15 9.5"/></svg></span>
+            <span>PhilHealth eClaims 3.0</span><i>•</i>
+            <span>Automated HMO eLOA</span><i>•</i>
+            <span>RA 9439/10932 ready</span>
+          </p>
+          <h1 id="hero-title" class="reveal">Built for patients.<br /><span class="grad">Powered by reconciliation.</span><br />Proven in discharge.</h1>
+          <p class="hero-sub reveal">MedCore is the tripartite reconciliation middleware that unifies your chargemaster, PhilHealth case rates, and HMO policies into one real-time, explainable ledger — for providers, payers, and patients.</p>
+          <p class="hero-headline-proof reveal">Discharge in <strong>under 45 minutes.</strong> Not 8 hours.</p>
+          <div class="hero-actions reveal">
+            <a href="#contact" class="btn btn-primary btn-lg magnetic">Book a Demo
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="https://med-core1.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg magnetic">Existing user? Open dashboard</a>
+          </div>
+          <div class="hero-proof reveal">
+            <div class="avatars" aria-hidden="true"><span>RC</span><span>JA</span><span>AL</span><span>KS</span></div>
+            <p><strong>7M+ HMO lives</strong> · 25 licensed HMOs · 350+ private hospitals in SAM</p>
+          </div>
+          <dl class="hero-stats reveal">
+            <div><dt>&lt;45 min</dt><dd>discharge SLA (target &lt;30)</dd></div>
+            <div><dt>&lt;2%</dt><dd>PhilHealth RTH vs 15–20% baseline</dd></div>
+            <div><dt>&lt;35 days</dt><dd>in A/R vs 75+ days baseline</dd></div>
+          </dl>
+          <p class="hero-note reveal">Reads BizBox, Comlogik &amp; Medsys replicas — no rip-and-replace. GCash (80M+ users) · Maya (50M+) · QR Ph · Cards.</p>
+        </div>
+
+        <div class="hero-visual reveal" id="heroVisual" aria-label="MedCore reconciliation preview">
+          <!-- RCM dashboard card -->
+          <div class="dash-card tilt" data-tilt>
+            <div class="dash-head">
+              <div><span class="dash-label">Sample 250-bed facility · RCM Command</span><strong>₱88.45M billed · 37.4% collected</strong></div>
+              <span class="badge badge-live"><span class="dot"></span>LIVE</span>
+            </div>
+            <svg class="dash-chart" viewBox="0 0 320 110" aria-hidden="true">
+              <defs>
+                <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stop-color="#2451FF"/><stop offset="1" stop-color="#2DD4BF"/>
+                </linearGradient>
+                <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#2451FF" stop-opacity=".28"/><stop offset="1" stop-color="#2451FF" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <g class="chart-grid" stroke="#E7E4DC" stroke-width="1">
+                <line x1="0" y1="25" x2="320" y2="25"/><line x1="0" y1="55" x2="320" y2="55"/><line x1="0" y1="85" x2="320" y2="85"/>
+              </g>
+              <path class="chart-area" d="M0,88 C30,80 50,62 80,64 C110,66 130,40 160,42 C190,44 210,60 240,48 C270,36 295,22 320,18 L320,110 L0,110 Z" fill="url(#areaGrad)"/>
+              <path class="chart-line" d="M0,88 C30,80 50,62 80,64 C110,66 130,40 160,42 C190,44 210,60 240,48 C270,36 295,22 320,18" fill="none" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round"/>
+              <circle class="chart-dot" cx="240" cy="48" r="5" fill="#2451FF" stroke="#fff" stroke-width="2.5"/>
+            </svg>
+            <div class="dash-kpis">
+              <div><span>Collection rate</span><strong class="count" data-count="37" data-suffix=".4%" data-decimal="1">0%</strong></div>
+              <div><span>Resolution rate</span><strong class="count" data-count="75" data-suffix=".2%" data-decimal="1">0%</strong></div>
+              <div><span>RTH risk</span><strong class="good">1.2%</strong></div>
+            </div>
+          </div>
+
+          <!-- Ledger card -->
+          <div class="ledger-card tilt" data-tilt>
+            <div class="ledger-head">
+              <div class="ledger-patient"><span class="avatar">JM</span><div><strong>Sample patient — MGH Cleared</strong><span>Ward 4B · Maxicare + PhilHealth</span></div></div>
+              <span class="badge badge-live"><span class="dot"></span>LIVE LEDGER</span>
+            </div>
+            <ul class="waterfall">
+              <li style="--w:100%"><span>Gross hospital charges</span><strong>₱84,320.00</strong></li>
+              <li class="deduct" style="--w:78%"><span>SC 12% VAT exempt + 20% discount (RA 9994)</span><strong>− ₱18,240.00</strong></li>
+              <li class="deduct" style="--w:56%"><span>PhilHealth All Case Rate (ACR 70/30)</span><strong>− ₱32,000.00</strong></li>
+              <li class="deduct" style="--w:30%"><span>HMO Final eLOA · Maxicare</span><strong>− ₱28,580.00</strong></li>
+              <li class="total"><span>Patient out-of-pocket</span><strong>₱5,500.00</strong></li>
+            </ul>
+            <div class="ledger-foot">
+              <div class="countdown"><span>Discharge countdown</span><strong id="countdownDemo">27:14 remaining</strong><div class="progress"><span id="countdownBar" style="width:68%"></span></div></div>
+              <div class="ledger-btns"><span class="btn btn-primary btn-sm btn-block">Pay ₱5,500 via QR Ph</span><span class="qr-pass">QR Discharge Pass ✓ Ready</span></div>
+            </div>
+          </div>
+
+          <!-- Phone mock -->
+          <div class="phone-mock tilt" data-tilt aria-hidden="true">
+            <div class="phone-notch"></div>
+            <p class="phone-app">MedCore Patient · Hi Ana 👋</p>
+            <p class="phone-due">₱5,500.00 <span>total due</span></p>
+            <span class="phone-pay">Pay now</span>
+            <span class="phone-gcash">GCash · Maya · QR Ph</span>
+          </div>
+
+          <div class="float-card float-1"><strong>RTH scrubber</strong><span>eSOA XML ✓ CF4 ✓ — risk 1.2%</span></div>
+          <div class="float-card float-2"><strong>+412 bed-hours/day</strong><span>reclaimed (verified 250-bed yield)</span></div>
+        </div>
+      </div>
+      <div class="container hero-ticker" aria-label="Compliance ticker">
+        <span>RA 9994 SC/PWD waterfall</span><i>•</i><span>PhilHealth-First enforced</span><i>•</i><span>eSOA XML Circular 2023-0026</span><i>•</i><span>Data Privacy Act RA 10173</span><i>•</i><span>Anti-Detention RA 9439 e-promissory</span><i>•</i><span>No-Deposit RA 10932</span>
+      </div>
+    </section>
+
+    <!-- ============ SOCIAL PROOF (marquee) ============ -->
+    <section class="trust" aria-label="Trusted by">
+      <div class="container">
+        <p class="section-kicker reveal">DESIGNED FOR THE PHILIPPINE HEALTHCARE STACK</p>
+        <h2 class="reveal">Built to plug into the stack you already run</h2>
+        <div class="marquee reveal" aria-label="Integration ecosystem">
+          <div class="marquee-track" id="marqueeTrack">
+            <div class="logo-item">PhilHealth<br /><span>eClaims 3.0 · XML eSOA</span></div>
+            <div class="logo-item">BizBox · Comlogik<br /><span>Medsys read-replicas</span></div>
+            <div class="logo-item">Maxicare<span>eLOA auto-adjudication</span></div>
+            <div class="logo-item">Intellicare · Avega<span>eLOA auto-adjudication</span></div>
+            <div class="logo-item">Medicard · PhilCare<span>+ Pacific Cross</span></div>
+            <div class="logo-item">GCash · Maya · QR Ph<span>80M+ · 50M+ users</span></div>
+          </div>
+        </div>
+        <p class="trust-note reveal">Private inpatient SAM of ₱80–120B across 350+ hospitals · OOP is 42.7% of ₱1.56T CHE · Anchored on Cagayan's <strong>EGAY Platform</strong> — Good Governance + Youth &amp; Elderly Welfare.</p>
+      </div>
+    </section>
+
+    <!-- ============ METRICS BAND ============ -->
+    <section class="metrics" id="metrics" aria-labelledby="metrics-title">
+      <div class="container">
+        <p class="section-kicker light reveal">INTELLIGENCE THAT SCALES · PERFORMANCE THAT DELIVERS</p>
+        <h2 id="metrics-title" class="reveal">The CFO math that pays for itself</h2>
+        <p class="section-sub reveal">Verified 250-bed yield: 32.4-min discharge, 88.2% promissory recovery, +₱31.41M/year. Bed turnover alone funds MedCore many times over.</p>
+        <div class="metrics-grid">
+          <article class="metric reveal"><strong data-count="89" data-suffix="%">0%</strong><span>cut in discharge time — 288 min → 32.4 min (verified)</span></article>
+          <article class="metric reveal"><strong data-count="90" data-suffix="%">0%</strong><span>drop in PhilHealth RTH denials — 20% → &lt;2%</span></article>
+          <article class="metric reveal"><strong>+<span data-count="40" data-suffix="%">0%</span></strong><span>lift in point-of-service cash collections</span></article>
+          <article class="metric reveal"><strong data-count="40" data-suffix="%">0%</strong><span>less billing-clerk reconciliation time</span></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PLATFORM / FEATURES (Cedar-style bento) ============ -->
+    <section class="features" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <p class="section-kicker reveal">THE COMPLETE RECONCILIATION PLATFORM</p>
+        <h2 id="features-title" class="reveal">Guide → Verify → Reward → Report → Improve</h2>
+        <p class="section-sub reveal">Not another HIS. A financial intelligence layer that sits on top of BizBox, Comlogik, or Medsys and orchestrates the three-way handshake continuously — not frantically at discharge.</p>
+
+        <div class="bento">
+          <article class="feature-card span-2 graphic-card reveal">
+            <div>
+              <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h14v18l-2.3-1.6-2.4 1.6-2.3-1.6L9.6 21l-2.3-1.6L5 21z"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="9" y1="12" x2="15" y2="12"/></svg></span>
+              <h3>GUIDE — Cost clarity on admission</h3>
+              <p>Pre-admission estimates, room-tier allowance checks, and deposit-free orientation (RA 10932). Families know the plan before the bill exists.</p>
+              <ul><li>Room &amp; HMO limit evaluator</li><li>PhilHealth-First estimator</li></ul>
+            </div>
+            <div class="mini-graphic" aria-hidden="true">
+              <div class="est-card"><span>Estimated OOP</span><strong>₱5,500</strong><div class="est-bars"><i style="--h:38%"></i><i style="--h:55%"></i><i style="--h:72%"></i><i style="--h:100%"></i></div><span class="est-note">Room M · Maxicare Silver</span></div>
+            </div>
+          </article>
+
+          <article class="feature-card graphic-card reveal">
+            <div>
+              <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span>
+              <h3>VERIFY — Real-time eligibility</h3>
+              <p>PhilHealth PEC checks, contribution validation, and HMO eLOA pre-auth in one pipeline. No more 2–4 hour Final LOA phone tag.</p>
+              <ul><li>Multi-payer LOA tracker</li><li>Exclusion pre-flagging</li></ul>
+            </div>
+            <div class="loa-pipe" aria-hidden="true"><span class="on">PEC ✓</span><span class="on">eLOA ✓</span><span class="pulse">Final LOA</span></div>
+          </article>
+
+          <article class="feature-card graphic-card reveal">
+            <div>
+              <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg></span>
+              <h3>REWARD — Frictionless settlement</h3>
+              <p>One-tap GCash, Maya, QR Ph, and cards on the patient's phone. Plus RA 9439 digital promissory notes (0% interest, 3/6/12 mo) with 88.2% verified recovery.</p>
+              <ul><li>QR Discharge Pass (PIN-secured)</li><li>2% prompt-settlement incentive</li></ul>
+            </div>
+            <div class="rails" aria-hidden="true"><span>GCash</span><span>Maya</span><span>QR Ph</span><span>Cards</span></div>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span>
+            <h3>REPORT — Command-center telemetry</h3>
+            <p>Live discharge countdown, Days in A/R, trapped-revenue KPIs, and tripartite ledger balances — down to the ward and payer.</p>
+            <ul><li>RCM Intelligence dashboard</li><li>Bed-turnover velocity</li></ul>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10z"/><polyline points="9 11.5 11 13.5 15 9.5"/></svg></span>
+            <h3>ClaimReady — Denial prevention</h3>
+            <p>Pre-flight eSOA XML / CF4 scrubber cross-validates charges vs diagnosis codes before submission. RTH collapses from 20% to under 2%.</p>
+            <ul><li>Denial-risk scorer</li><li>60-day refiling guardrails</li></ul>
+          </article>
+
+          <article class="feature-card wide reveal">
+            <div>
+              <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg></span>
+              <h3>IMPROVE — Learning loop</h3>
+              <p>Every RTH code and HMO disallowance becomes a preventive rule. Doctor PF e-sign, pharmacy RTS clearance, and supervisor waivers — all audited.</p>
+            </div>
+            <ul><li>Plain-language "Why do I owe this?"</li><li>Doctor mobile PF portal</li><li>Denial rules deployed back into GUIDE → VERIFY</li></ul>
+          </article>
+        </div>
+
+        <div class="pricing-strip reveal" aria-label="Pricing model">
+          <span class="strip-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 6.5c0-1.9-2.2-3-5-3s-5 1.1-5 3 2 2.6 5 3.2 5 1.4 5 3.3-2.2 3-5 3-5-1.1-5-3"/></svg></span>
+          <div><strong>Hybrid SaaS + value-based</strong><span>Plans from ₱125,000/yr · ₱45–₱85 per cleared discharge · 1.2–2.5% digital rail · 5–8% gainshare only on recovered claims</span></div>
+          <a href="#pricing" class="btn btn-primary magnetic">See plans</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="pricing" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <p class="section-kicker reveal">PRICING</p>
+        <h2 id="pricing-title" class="reveal">Predictable base, value-linked usage</h2>
+        <p class="section-sub reveal">A hybrid enterprise SaaS model tiered by licensed bed capacity, so software spend scales with occupancy and actual discharge throughput.</p>
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <h3>Small</h3>
+            <p class="tier">100–199 beds</p>
+            <p class="price">₱125,000 <span>/ yr</span></p>
+            <p class="tier-desc">Small primary hospitals getting started with digital reconciliation.</p>
+            <ul>
+              <li>Basic HIS integration</li>
+              <li>Statutory ledger for PhilHealth claims</li>
+              <li>Intake &amp; billing console</li>
+              <li>Security compliance</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Talk to sales</a>
+          </article>
+
+          <article class="price-card reveal" data-delay="1">
+            <h3>Medium</h3>
+            <p class="tier">200–499 beds</p>
+            <p class="price">₱250,000 <span>/ yr</span></p>
+            <p class="tier-desc">Medium hospitals requiring streamlined reconciliation workflows.</p>
+            <ul>
+              <li>Standard HIS integration</li>
+              <li>Enhanced statutory ledger</li>
+              <li>Intake &amp; billing console</li>
+              <li>Security compliance</li>
+              <li>Basic analytics dashboard</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Talk to sales</a>
+          </article>
+
+          <article class="price-card reveal" data-delay="2">
+            <h3>Large</h3>
+            <p class="tier">500+ beds</p>
+            <p class="price">₱500,000 <span>/ yr</span></p>
+            <p class="tier-desc">Large hospitals needing advanced reconciliation capabilities.</p>
+            <ul>
+              <li>Advanced HIS integration</li>
+              <li>Comprehensive statutory ledger</li>
+              <li>Intake &amp; billing console</li>
+              <li>Security compliance</li>
+              <li>Analytics dashboard</li>
+              <li>Claims management</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Talk to sales</a>
+          </article>
+
+          <article class="price-card reveal" data-delay="3">
+            <h3>Enterprise</h3>
+            <p class="tier">Networks &amp; Systems</p>
+            <p class="price">Custom</p>
+            <p class="tier-desc">Enterprise hospital networks requiring customized solutions.</p>
+            <ul>
+              <li>Everything in Large</li>
+              <li>Network-wide deployment</li>
+              <li>Dedicated integration engineering</li>
+              <li>Custom SLAs &amp; onboarding</li>
+              <li>Denial-recovery value share</li>
+              <li>API access &amp; custom development</li>
+              <li>Advanced analytics &amp; reporting</li>
+              <li>Multi-facility management</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Talk to sales</a>
+          </article>
+        </div>
+
+        <div class="patient-plans">
+          <h3 class="reveal">Patient Subscription Plans (Yearly)</h3>
+          <p class="patient-sub reveal">Access to MedCore's patient engagement platform and financial transparency tools</p>
+          <div class="patient-grid">
+            <article class="patient-card reveal">
+              <span class="patient-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+              <h4>Tier 1 Patient Subscription</h4>
+              <p class="price">₱3,600</p>
+            </article>
+            <article class="patient-card reveal" data-delay="1">
+              <span class="patient-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+              <h4>Tier 2 Patient Subscription</h4>
+              <p class="price">₱3,000</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="workflow" aria-labelledby="workflow-title">
+      <div class="container workflow-grid">
+        <div>
+          <p class="section-kicker reveal">HOW IT WORKS</p>
+          <h2 id="workflow-title" class="reveal">The 6-stage discharge state machine</h2>
+          <p class="section-sub reveal">MGH → PF → RTS → LOA → Settlement → Cleared. Every transition is timestamped, auditable, and visible to billing, liaison, and family at once. The HMO Final eLOA alone causes 80%+ of today's delay bottlenecks — while PHAPi reports ₱4–10B locked in RTH and disputed claims.</p>
+          <ol class="steps">
+            <li class="reveal"><strong>MGH trigger</strong> — Doctor signs "May Go Home." Countdown starts (T<sub>0</sub>).</li>
+            <li class="reveal"><strong>PF sign-off</strong> — Attending confirms fee on mobile; excess PF flagged instantly. <span class="step-time">today: 1–3 hrs → seconds</span></li>
+            <li class="reveal"><strong>RTS clearance</strong> — Pharmacy return-to-stock audited; phantom charges removed. <span class="step-time">today: 1–2 hrs → minutes</span></li>
+            <li class="reveal"><strong>Final eLOA</strong> — Pre-cleansed payload to HMO; approval in seconds, not hours. <span class="step-time">today: 2–4 hrs → seconds</span></li>
+            <li class="reveal"><strong>Settlement</strong> — Patient pays or e-signs RA 9439 note on their phone. <span class="step-time">today: 0.5–1 hr queue → 1 tap</span></li>
+            <li class="reveal"><strong>Cleared + QR pass</strong> — Lobby verifies pass + 4-digit PIN. Bed turns over.</li>
+          </ol>
+          <a href="https://med-core1.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-dark magnetic reveal">See it live in the dashboard</a>
+        </div>
+        <div class="table-wrap reveal">
+          <table class="compare-table">
+            <caption>Legacy baseline vs verified 250-bed MedCore yield</caption>
+            <thead><tr><th scope="col">Metric</th><th scope="col">Status quo</th><th scope="col">With MedCore</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Discharge TAT</th><td>4–8+ hrs</td><td class="good">32.4 min</td></tr>
+              <tr><th scope="row">PhilHealth RTH</th><td>15–20%</td><td class="good">&lt;2% (96.4% clean-claim)</td></tr>
+              <tr><th scope="row">Days in A/R</th><td>75–90 days</td><td class="good">21.4 days</td></tr>
+              <tr><th scope="row">POS collection</th><td>Delayed / write-off</td><td class="good">+25–40%</td></tr>
+              <tr><th scope="row">Promissory recovery</th><td>&lt;20% (paper)</td><td class="good">88.2% (digital)</td></tr>
+              <tr><th scope="row">Clerk workload</th><td>Manual re-keying</td><td class="good">−40% automation</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="container">
+        <div class="roadmap reveal" aria-label="MedCore roadmap">
+          <div class="phase"><span>Phase 1 · 0–18 mo</span><strong>Hospital wedge</strong><p>20–30 private tertiary hospitals across NCR, Calabarzon &amp; Cebu at the &lt;45-min SLA.</p></div>
+          <div class="phase"><span>Phase 2 · 18–36 mo</span><strong>Payer network</strong><p>Direct API pipes with the top-5 HMOs; real-time eLOA adjudication in a shared clearinghouse.</p></div>
+          <div class="phase"><span>Phase 3 · 36–60 mo</span><strong>Health Account</strong><p>One wallet for PhilHealth + HMO balances and compliant micro-installments for every Filipino family.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="testimonials" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <p class="section-kicker reveal">TESTIMONIALS</p>
+        <h2 id="testimonials-title" class="reveal">Loved by CFOs, clerks, doctors — and families</h2>
+        <p class="section-sub reveal">Illustrative personas drawn from hospital user research — CFOs, clerks, doctors, and families.</p>
+        <div class="slider reveal" role="region" aria-roledescription="carousel" aria-label="Customer testimonials">
+          <div class="slides" id="slides">
+            <figure class="t-card active">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote>"Discharge used to eat our entire afternoon shift. With MedCore's countdown and pre-scrubbed eLOA, we're clearing ward patients in 32 minutes on average — and our ER waitlist finally moves."</blockquote>
+              <figcaption><span class="avatar a1">CF</span><div><strong>Hospital CFO</strong><span>250-bed tertiary hospital · illustrative persona</span></div></figcaption>
+            </figure>
+            <figure class="t-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote>"I used to re-type LOAs from email into BizBox and pray the math matched. Now the waterfall is automatic — SC/PWD, PhilHealth, HMO — and CF4 mismatches are caught before PhilHealth sees them."</blockquote>
+              <figcaption><span class="avatar a2">BH</span><div><strong>Billing section head</strong><span>12 yrs in hospital RCM · illustrative persona</span></div></figcaption>
+            </figure>
+            <figure class="t-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote>"My father's bill was on my phone the whole confinement. When the doctor said 'puwede nang umuwi,' I paid ₱5,500 with GCash and we got the QR pass. No cashier line, no surprise."</blockquote>
+              <figcaption><span class="avatar a3">PG</span><div><strong>Patient guarantor</strong><span>HMO dependent · illustrative persona</span></div></figcaption>
+            </figure>
+            <figure class="t-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote>"Final LOA was our 3-hour bottleneck. Pre-cleansed chargemaster feeds mean I send once and it's approved. Disputes at discharge have basically disappeared."</blockquote>
+              <figcaption><span class="avatar a4">LO</span><div><strong>HMO liaison officer</strong><span>Multi-payer desk · illustrative persona</span></div></figcaption>
+            </figure>
+          </div>
+          <div class="slider-controls">
+            <button id="prevSlide" aria-label="Previous testimonial">←</button>
+            <div class="dots" id="sliderDots" role="tablist" aria-label="Testimonial selector"></div>
+            <button id="nextSlide" aria-label="Next testimonial">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-grid">
+        <div>
+          <p class="section-kicker reveal">FAQ</p>
+          <h2 id="faq-title" class="reveal">Objections, answered honestly</h2>
+          <p class="section-sub reveal">If it doesn't survive a CFO, a billing clerk, and a Data Privacy Officer, it doesn't ship.</p>
+          <a href="#contact" class="btn btn-dark magnetic reveal">Ask something else</a>
+        </div>
+        <div class="accordion reveal" id="accordion">
+          <div class="acc-item">
+            <button class="acc-btn" aria-expanded="false">Does MedCore replace our HIS / EMR?<span class="acc-icon" aria-hidden="true">+</span></button>
+            <div class="acc-panel"><p>No. MedCore is middleware, not a HIS. We connect via read-replicas, HL7/FHIR feeds, and eSOA XML listeners on top of BizBox, Comlogik, or Medsys. Your clinical workflows stay untouched; we add the financial intelligence layer.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-btn" aria-expanded="false">How do you handle PhilHealth compliance?<span class="acc-icon" aria-hidden="true">+</span></button>
+            <div class="acc-panel"><p>ClaimReady enforces the statutory waterfall in the correct order — 12% VAT exemption + 20% SC/PWD discount (RA 9994/10754), then PhilHealth All Case Rates (70/30 or 60/40 splits), then HMO ("PhilHealth-First" rule). Outgoing packages are scrubbed against eClaims 3.0 / Circular 2023-0026 and CF1–CF4 cross-validation, cutting RTH from 15–20% to &lt;2%.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-btn" aria-expanded="false">What about HMO exclusions and excess PF?<span class="acc-icon" aria-hidden="true">+</span></button>
+            <div class="acc-panel"><p>Each HMO's rulebook (MBL caps, inner limits, consumable exclusions) is mapped in real time. Non-covered sundries and excess doctor fees are flagged during the stay in plain language — e.g. "Suction catheter ₱420 — standard consumable exclusion" — so there's no confrontation at discharge.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-btn" aria-expanded="false">Is patient data protected?<span class="acc-icon" aria-hidden="true">+</span></button>
+            <div class="acc-panel"><p>Yes. MedCore is designed around the Data Privacy Act of 2012 (RA 10173) and NPC guidance: encrypted transport, role-based access, audit trails on every waiver and e-sign, and QR passes gated by a 4-digit PIN. Backend is the single source of truth — no calculation drift across clients.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-btn" aria-expanded="false">How does pricing work?<span class="acc-icon" aria-hidden="true">+</span></button>
+            <div class="acc-panel"><p>Hybrid SaaS + value-based. Hospitals: annual plans tiered by bed capacity — Small (100–199 beds) ₱125,000/yr, Medium (200–499) ₱250,000/yr, Large (500+) ₱500,000/yr, Enterprise custom — plus ₱45–₱85 per cleared discharge and a 1.2–2.5% digital-settlement rail. An optional 5–8% contingency applies only to PhilHealth claims recovered above your historical baseline. Patients: Tier 1 at ₱3,600/yr or Tier 2 at ₱3,000/yr for the engagement platform. Payers face zero subscription — they pay only on successful reconciliations (₱650 illustrative fee on a ₱6,500 reconciled transaction).</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-btn" aria-expanded="false">What does go-live look like?<span class="acc-icon" aria-hidden="true">+</span></button>
+            <div class="acc-panel"><p>Pilot in one ward in weeks: connect HIS replica, load chargemaster + HMO contracts, train billing + liaison on the ledger console, and enable patient SMS magic-links. Success is measured on discharge TAT, RTH rate, and DAR — not logins.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA / LEAD CAPTURE ============ -->
+    <section class="cta" id="contact" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-card reveal">
+          <div class="cta-copy">
+            <p class="section-kicker light">GET STARTED</p>
+            <h2 id="cta-title">Reclaim your beds. Recover your cash. Release your patients.</h2>
+            <p>Get the CFO ROI sheet with TAM/SAM/SOM (₱199M SOM on transaction model), bed-turnover economics, and a 30-minute pilot scoping call.</p>
+            <ul class="cta-points">
+              <li>✓ Ward-level pilot in weeks, not quarters</li>
+              <li>✓ Verified 250-bed yield: 32.4-min TAT · 88.2% recovery · +₱31.41M/yr</li>
+              <li>✓ HMO LOA mapping for Maxicare, Intellicare, Medicard, PhilCare, Pacific Cross</li>
+            </ul>
+            <p class="cta-login">Already onboard? <a href="https://med-core1.vercel.app/" target="_blank" rel="noopener noreferrer">Login to Dashboard</a></p>
+          </div>
+          <form class="lead-form" id="leadForm" novalidate aria-label="Contact / demo request form">
+            <h3>Book a demo</h3>
+            <p class="form-sub">We reply within 1 business day.</p>
+            <div class="field-row">
+              <div class="field"><label for="fName">Full name</label><input id="fName" name="name" type="text" placeholder="Dr. Maria Santos" required autocomplete="name" /></div>
+              <div class="field"><label for="fEmail">Work email</label><input id="fEmail" name="email" type="email" placeholder="cfo@hospital.ph" required autocomplete="email" /></div>
+            </div>
+            <div class="field-row">
+              <div class="field"><label for="fHosp">Hospital / Organization</label><input id="fHosp" name="hospital" type="text" placeholder="Your Hospital / Medical Center" required /></div>
+              <div class="field"><label for="fBeds">Bed capacity</label><select id="fBeds" name="beds"><option value="">Select…</option><option>Under 100 beds</option><option>100–199 beds</option><option>200–499 beds</option><option>500+ beds / group</option></select></div>
+            </div>
+            <div class="field"><label for="fMsg">What hurts most today?</label><textarea id="fMsg" name="message" rows="3" placeholder="e.g. 6-hour discharges, 18% RTH, 80-day A/R…"></textarea></div>
+            <label class="consent"><input type="checkbox" id="fNews" checked /> Send me the monthly RCM benchmark (PhilHealth + HMO denial trends). No spam.</label>
+            <button type="submit" class="btn btn-primary btn-lg btn-block magnetic">Request Demo</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            <p class="form-fine">By submitting you agree to be contacted about a pilot. We process data per RA 10173.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" aria-label="Footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img class="footer-logo" src="/logo/MedCore_Text_logo.png" alt="MedCore" />
+        <p>Financial intelligence &amp; multi-payer reconciliation for Philippine healthcare. Discharge in under 45 minutes.</p>
+        <p class="footer-contact">Cagayan Valley pilot-ready · <a href="#contact">Contact us</a></p>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="X">𝕏</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+      <nav aria-label="Product"><h4>Product</h4><a href="#features">Features</a><a href="#metrics">Impact</a><a href="#pricing">Pricing</a><a href="#testimonials">Customers</a><a href="#faq">FAQ</a></nav>
+      <nav aria-label="Compliance"><h4>Compliance</h4><a href="#">PhilHealth eClaims 3.0</a><a href="#">Data Privacy (RA 10173)</a><a href="#">RA 9439 · RA 10932</a><a href="#">Privacy Policy</a></nav>
+      <nav aria-label="Company"><h4>Company</h4><a href="#contact">Contact</a><a href="#">Terms of Service</a><a href="https://med-core1.vercel.app/" target="_blank" rel="noopener noreferrer">Application Dashboard</a><a href="https://vercel.app" target="_blank" rel="noopener noreferrer">Login</a></nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 MedCore. All rights reserved. Made for Philippine hospitals · Cagayan Valley pilot-ready.</p>
+      <p class="footer-meta">SOM ₱199.7M · 454 qualified hospitals · 10% payer transaction model</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
