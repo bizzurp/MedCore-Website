@@ -1,4 +1,5 @@
 // MedCore v2 interactions — Cedar-style motion, no dependencies
+import './fonts.css';
 import './style.css';
 
 (function () {
